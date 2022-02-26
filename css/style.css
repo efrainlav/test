@@ -116,7 +116,7 @@ footer p {
 
   .header-content .logo {
     height: 140px;
-    width: 140px;
+    width: 240px;
   }
 
   .header-content .text {
@@ -126,12 +126,12 @@ footer p {
   .grid-3, .grid-2 {
     grid-template-columns: 1fr;
   }
-
   .services{
-    margin-top: 20%;
-}
+      margin-top: 20%;
+  }
+
   .services div {
-    padding: 1.4rem 1rem;
+    padding: 1.5rem 1rem;
   }
 }
 
