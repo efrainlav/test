@@ -1,8 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+
+}
 body {
   background: rgba(0, 0, 0, 0.9);
   margin: 0;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
+}
+
+h3{
+  font-size: 2.5rem;
+}
+
+section p {
+  font-size: 2rem;
 }
 
 .header::after {
@@ -14,19 +32,19 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   display: block;
-  filter: blur(10px);
-  -webkit-filter: blur(10px);
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
   transition: all 1000ms;
 }
 
 .header:hover::after {
-  filter: blur(0px);
-  -webkit-filter: blur(0px);
+  filter: blur(0.5px);
+  -webkit-filter: blur(0.5px);
 }
 
 .header:hover .header-content {
-  filter: blur(2px);
-  -webkit-filter: blur(2px);
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
 }
 
 .header-content {
@@ -38,11 +56,15 @@ body {
   margin-left: -145px;
   width: 300px;
   height: 350px;
-  text-align: center;
   transition: all 1000ms;
 }
 
 .header-content .logo {
+  height: 150px;
+  width: 300px;
+}
+
+.Mon_Reser {
   height: 150px;
   width: 300px;
 }
@@ -53,12 +75,17 @@ body {
 }
 
 .header-content .text {
+  font-size: 2rem;
   line-height: 1.7;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  width: 500px;
+  text-align: center;
+  margin-left: -105px;
+  text-indent: inherit;
 }
 
 .container {
-  max-width: 960px;
+  max-width: 90rem;
   margin: auto;
   overflow: hidden;
   padding: 4rem 1rem;
@@ -67,12 +94,12 @@ body {
 .grid-3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; /* 30px 30px 30px or repeat(3, 1fr)*/
-  grid-gap: 20px;
+  grid-gap: 2rem;
 }
 
 .grid-2 {
   display: grid;
-  grid-grap: 20px;
+  grid-grap: 2rem;
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -92,7 +119,11 @@ body {
 }
 
   .services{
-      margin-top: 20%;
+      margin-top: 10%;
+  }
+
+  .services .subtitle{
+    font-size: 5rem;
   }
 
   .services div {
@@ -120,8 +151,8 @@ footer p {
   }
 
   .header-content .logo {
-    height: 140px;
-    width: 240px;
+    height: 150px;
+    width: 300px;
   }
 
   .header-content .text {
@@ -135,9 +166,24 @@ footer p {
       margin-top: 20%;
   }
 
+  .services .subtitle{
+    font-size: 2rem;
+  }
+
   .services div {
     padding: 1.5rem 1rem;
   }
+}
+
+
+@media(min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) {
+
+  .header-content .title, .header-content .text {
+    padding-top: 100px;
+  }
+
 }
 
 /* Landscape */
