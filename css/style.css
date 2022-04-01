@@ -5,6 +5,13 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+span {
+  color: #ee787c;
+  font-weight: bold;
+  font-size: 24px;
+
+}
+
 .header::after {
   content: '';
   height: 100vh;
@@ -19,24 +26,25 @@ body {
   transition: all 1000ms;
 }
 
-.header:hover::after {
+/* .header:hover::after {
   filter: blur(0px);
   -webkit-filter: blur(0px);
-}
+} */
 
-.header:hover .header-content {
+/* .header:hover .header-content {
   filter: blur(2px);
   -webkit-filter: blur(2px);
-}
+} */
 
 .header-content {
+  font-size: 22px;
   position: absolute;
   z-index: 1;
   top: 10%;
   left: 50%;
   margin-top: 105px;
-  margin-left: -145px;
-  width: 300px;
+  margin-left: -35%;
+  width: 70%;
   height: 350px;
   text-align: center;
   transition: all 1000ms;
@@ -112,6 +120,7 @@ footer p {
 @media (max-width: 560px) {
   .header::after {
     height: 50vh;
+    padding: 0 0 500px;
   }
   
   .header-content {
