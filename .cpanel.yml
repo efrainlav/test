@@ -1,5 +1,5 @@
 ---
 deployment:
  tasks:
- - export DEPLOYPATH=/home/efrainlav/public_html/
+ - export DEPLOYPATH=/home/gidcocom/public_html/
  - /bin/rsync -av test/ $DEPLOYPATH
