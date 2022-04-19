@@ -3,6 +3,8 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/gidcocom/public_html/
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/rsync -av css $DEPLOYPATH
-    - /bin/rsync -av docs $DEPLOYPATH
-    - /bin/rsync -av img $DEPLOYPATH
+    - /bin/cp css/style.css $DEPLOYPATH
+    - /bin/cp img/Acuiferos.JPG $DEPLOYPATH
+    - /bin/cp img/LOGO_GIDCO.jpg $DEPLOYPATH
+    - /bin/cp img/paisaje.jpg $DEPLOYPATH
+    - /bin/cp img/Reservorio.jpg $DEPLOYPATH
