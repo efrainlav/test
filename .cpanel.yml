@@ -5,7 +5,3 @@ deployment:
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp css/style.css $DEPLOYPATH
     - /bin/cp img/ $DEPLOYPATH
-    # - /bin/cp img/Acuiferos.JPG $DEPLOYPATH
-    # - /bin/cp img/LOGO_GIDCO.jpg $DEPLOYPATH
-    # - /bin/cp img/paisaje.jpg $DEPLOYPATH
-    # - /bin/cp img/Reservorio.jpg $DEPLOYPATH
