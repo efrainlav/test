@@ -1,5 +1,6 @@
 ---
 deployment:
- tasks:
- - export DEPLOYPATH=/home/gidcocom/public_html/
- - /bin/rsync -av test/ $DEPLOYPATH
+  tasks:
+    - export DEPLOYPATH=/home/gidcocom/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp css/style.css $DEPLOYPATH
