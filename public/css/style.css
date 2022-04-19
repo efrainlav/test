@@ -15,20 +15,11 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-<<<<<<< HEAD
 span {
   color: #ee787c;
   font-weight: bold;
   font-size: 24px;
 
-=======
-h3{
-  font-size: 2.5rem;
-}
-
-section p {
-  font-size: 2rem;
->>>>>>> gh-landing
 }
 
 .header::after {
@@ -45,7 +36,6 @@ section p {
   transition: all 1000ms;
 }
 
-<<<<<<< HEAD
 /* .header:hover::after {
   filter: blur(0px);
   -webkit-filter: blur(0px);
@@ -55,17 +45,6 @@ section p {
   filter: blur(2px);
   -webkit-filter: blur(2px);
 } */
-=======
-.header:hover::after {
-  filter: blur(0.5px);
-  -webkit-filter: blur(0.5px);
-}
-
-.header:hover .header-content {
-  filter: blur(1px);
-  -webkit-filter: blur(1px);
-}
->>>>>>> gh-landing
 
 .header-content {
   font-size: 22px;
@@ -150,7 +129,6 @@ section p {
   .services div {
     padding: 1.5rem 1rem;
   }
-}
 
 footer {
   padding: 2.2rem;
